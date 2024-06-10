@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Home page</h1>
+    <h1>Movies List :</h1>
+        @foreach ($collection as $item)
+            
+        @endforeach
 @endsection
