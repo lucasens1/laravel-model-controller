@@ -10,6 +10,6 @@ class HomePageController extends Controller
     public function index(){
         $moviesList = Movie::all();
         /* dd($moviesList); */
-        return view('home', compact($moviesList));
+        return view('home', compact('moviesList'));
     }
 }
